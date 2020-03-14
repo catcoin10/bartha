@@ -15,4 +15,4 @@ def run(n):
     count += 1
   return [data, int(result), count]
 
-print(run(22))
+print(run(20))
