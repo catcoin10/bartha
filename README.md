@@ -1,12 +1,10 @@
 # bartha (aka Digital Treasure)
 A SHA256 hashing project
 
-This is a hash generating project that aims to use my CPU's existence and access to electricity to calculate hashes of a hash of a picture of Justin Bartha (the National Treasure actor). The goal of this project is to use my CPU to generate strings with SHA256 outputs that contain as many zeroes as safely possible with my hardware.
+This is a hash generating project that aims to use my CPU's existence and access to electricity to calculate hashes of a hash of a picture of Justin Bartha (the National Treasure actor). The goal of this project is to use my CPU to generate strings with SHA256 (and also argon2) outputs that contain as many zeroes as safely possible with my hardware.
 
 I chose Justin Bartha because he endorsed Bernie Sanders and was the computer person in National Treasure. The former reason is why I chose the name Digital Treasure. I also intend to run the Digital Treasure program on my computer for as much time as possible.
 
-This cannot solve the SHA256 puzzle, the number of possible SHA256 hashes is roughly the number of oxygen atoms in the observable universe, which is huge considering that 16 grams of oxygen is "only" 6.023X10^23 atoms.
+I will be using argon2 from now on. It allows a 256 bit string to be inputted and converted into "digital treasure". This can be used to prove that my computer is on, which is one thing that I want to do it for.
 
-I am going to weigh my digital treasure in the weight of atoms in the universe. The weighted average mass of the atoms is at least 1.7 and I am going to be conservative in my calculations. There are also approximately 10 to the 80th atoms in the observable universe, and let's assume they are all hydrogen and helium even though we know there are not that many. So, we have 2.437\*10^-21 atoms per hash.
-
-The total amount of digital treasure found totals half of a nanogram. Wow. And, half of the universe is empty space!
+You can use it to say "I have been using my computer for approximately X minutes" or at least "approximately X hashes" and be able to prove that the CPU was used somewhere.
