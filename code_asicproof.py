@@ -12,6 +12,6 @@ def run(x):
     result = divide(binascii.hexlify(argon2.argon2_hash(input,salt)))
     data = binascii.hexlify(argon2.argon2_hash(input,salt))
     count += 1
-  return [str(data)[2:-1], int(result), count]
+  return [str(data)[2:-1], int(salt), count]
 
 print(run(int(sys.argv[1])))
