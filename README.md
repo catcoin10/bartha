@@ -1,5 +1,7 @@
 # bartha (aka Digital Treasure)
-A SHA256 hashing project
+An Argon2 hashing project
+
+24,956 hashes and counting!
 
 This is a hash generating project that aims to use my CPU's existence and access to electricity to calculate hashes of a hash of a picture of Justin Bartha (the National Treasure actor). The goal of this project is to use my CPU to generate strings with SHA256 (and also argon2) outputs that contain as many zeroes as safely possible with my hardware.
 
